@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b48ba20f-03e6-4bff-8286-3bdf48120d4f" name="Changes" comment="Basic PostgreSQL config">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pollApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pollApplication.iml" afterDir="false" />
+    <list default="true" id="b48ba20f-03e6-4bff-8286-3bdf48120d4f" name="Changes" comment="Basic admin menu update">
+      <change afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +45,12 @@
     &quot;assignee&quot;: &quot;caio-passos&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/caio-passos/DJangoPoll.git",
-    "accountId": "3a0e067b-e7ae-4e32-8e82-56afeacf76c4"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/caio-passos/DJangoPoll.git&quot;,
+    &quot;accountId&quot;: &quot;3a0e067b-e7ae-4e32-8e82-56afeacf76c4&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -95,6 +93,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/polls/templates/polls" />
+    </key>
+  </component>
   <component name="RunManager" selected="Django Server.djangoPoll">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pollApplication" />
@@ -173,7 +176,11 @@
       <workItem from="1713471766049" duration="4492000" />
       <workItem from="1713546416842" duration="3285000" />
       <workItem from="1713628126883" duration="4188000" />
-      <workItem from="1713754916254" duration="9896000" />
+      <workItem from="1713754916254" duration="11183000" />
+      <workItem from="1713878438200" duration="5650000" />
+      <workItem from="1713906009483" duration="835000" />
+      <workItem from="1713917356725" duration="2498000" />
+      <workItem from="1713961996272" duration="5954000" />
     </task>
     <task id="LOCAL-00001" summary="Basic PostgreSQL config">
       <option name="closed" value="true" />
@@ -183,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713327462848</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Basic admin menu update">
+      <option name="closed" value="true" />
+      <created>1713799969276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713799969276</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +217,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic PostgreSQL config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic PostgreSQL config" />
+    <MESSAGE value="Basic admin menu update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic admin menu update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DJangoPoll$settings.coverage" NAME="settings Coverage Results" MODIFIED="1713457580255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pollApplication" />
